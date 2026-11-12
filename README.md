@@ -21,5 +21,5 @@ Este repositorio es para la **asignatura IAW**, donde aprenderemos *Git y GitHub
 
 ```bash
 echo "Ejemplo de bloque de código"
-
+```
 ![Logo del proyecto](images/logo.jpg)
