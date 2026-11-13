@@ -23,3 +23,11 @@ Este repositorio es para la **asignatura IAW**, donde aprenderemos *Git y GitHub
 echo "Ejemplo de bloque de código"
 ```
 ![Logo del proyecto](images/logo.jpg)
+
+
+## Instalación y ejecución en local
+
+Para visualizar este proyecto web en tu equipo:
+1. Clona el repositorio en tu ordenador:
+   ```bash
+   git clone [https://github.com/CarlosPruebasVC/IAW-web.git](https://github.com/CarlosPruebasVC/IAW-web.git)
