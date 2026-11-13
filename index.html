@@ -1,3 +1,62 @@
-<h1>Página Web IAW</h1>
-<p>Nueva línea desde local</p>
-<h2>Segunda sección</h2>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>URGENTE: Llamada Entrante</title>
+    <style>
+        body {
+            background-color: #1a361d; /* Verde oscuro Jagger */
+            color: #ff5e00; /* Naranja Jagger */
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px #000000;
+        }
+        img {
+            border: 5px dashed #ff5e00;
+            width: 300px;
+            margin: 20px;
+        }
+        .parpadea {
+            animation: blinker 1s linear infinite;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: #ffffff;
+        }
+        @keyframes blinker {
+            50% { opacity: 0; }
+        }
+        button {
+            background: #ff5e00;
+            color: #1a361d;
+            font-size: 20px;
+            padding: 10px 20px;
+            font-weight: bold;
+            cursor: pointer;
+            border: 3px solid #ffffff;
+            font-family: "Comic Sans MS";
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><marquee behavior="alternate">¡RING RING... RING RING!</marquee></h1>
+
+    <p class="parpadea">⚠️ Tienes una llamada entrante muy importante ⚠️</p>
+
+    <!-- Aquí carga tu imagen de la carpeta -->
+    <img src="images/jeje.png" alt="El Jagger te llama">
+
+    <p>¿Las horas de FCT en Illescas te están consumiendo la energía?</p>
+    <p>¿Tus máquinas virtuales de ASIR han decidido no arrancar hoy?</p>
+    <p>Déjalo ya. El Jägermeister te está llamando a gritos y es de muy mala educación dejarlo en buzón de voz.</p>
+
+    <button onclick="alert('¡Esa es la actitud! Preparando los vasos de chupito... 🦌')">DESCOLGAR</button>
+    <button onclick="alert('Error 404: La opción de rechazar al Jagger no existe.')">COLGAR</button>
+
+</body>
+</html>
